@@ -175,5 +175,5 @@ fit3 <- eBayes(lmFit(exprs(DNAme)[, as.integer(rownames(design3))], design3))
 I'm unsure of how to interpret the code above:
 - The annotation/description of the designs are unclear. 
 - Why would we run the code this way?
-- What do the probe numbers mean?
-- How can this be translated into assessing genome-wide methylation?
+- What do the probe numbers mean? _Indication of hypermethylated sites_ 
+- How can this be translated into assessing genome-wide methylation? _Compare the numbers to see if TET2 has a similar effect to IDH hypermethylation. Spoiler, it does not_
